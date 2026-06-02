@@ -1,0 +1,51 @@
+{
+  "build_command": "pnpm run build",
+  "capabilities": [
+    "server",
+    "db",
+    "user"
+  ],
+  "dev_command": "pnpm run dev",
+  "env_vars": {
+    "DATABASE_URL": "mysql://4VG4u5mHFrQFYmV.root:gJHmkR9YOH225ZiN4zb6@gateway06.us-east-1.prod.aws.tidbcloud.com:4000/UDYZWaN7QE8vrmqi435NkK?ssl={\"rejectUnauthorized\":true}"
+  },
+  "experiments": [
+    "no_db_push"
+  ],
+  "git_remote": {
+    "repo_url": "s3://vida-prod-gitrepo/webdev-git/310519663593334974/UDYZWaN7QE8vrmqi435NkK",
+    "access_key_id": "ASIAZV3A2ECZPDE64IVH",
+    "secret_access_key": "dLM3/Z0ZieaHMYHdk//sUIAPHunYh1GV9R83NLuj",
+    "session_token": "IQoJb3JpZ2luX2VjEKL//////////wEaCXVzLWVhc3QtMSJHMEUCIGDnu8EB9q+B9Y8W8CWRSVeLaXUC9JgRf0t8y4+ymdjWAiEAo3WLn990KTXWYTg5+0/Q+27zDFd7UCHh7xBhLWlmIYwq9gMIaxAEGgw2NjUzODYwOTg4NjYiDP4Ei9zvQkAD+6F0RyrTAymLbEleJLis2ubvU3Vo7N2TTRFHlXEz85FzGZwEydjBjD6WbicaZDxw3uOoj/mdMkFSTccngXNg7tGDmRLz5eHvLVFk68O+hGbWKa8wrJSOjjnjYsGSGZZ+8UgM+WD5yD4jF/+ZYvXt2BpE1oWy+NBg31Fde1IsvnzZCpp+4+vqh5xnSB7KwufEig6vtl2iQgbLgN3Vu1ITw/yD0iztlHetkQXhiK4TZL8GzKH1NfAkirBVLVbbefwpB1h3zHrA1ssQWlnQWo7squPcYK1j1gm8hbWGxhmHCI45KsLhQaWmXyx/yC8UY1kovt23VpdFN8lY/jx5MpIVd6bT3OOEGS7pWVUoekF1Oqz6ukw/aeEw8fb8BRJJb76w33e/uDWG67KRP/QLZBoGOeqwZzHZHsAPGrHEDrFeuNxtg/44rAfYRhUmzGULTJOwv53sGQPHNiTwq+irCxc3As0Wd3hJgQuZXHDsXveYMJoEZMYzfTms0NkMowXRwtEBjQyh+DpNkeCC+QoFJDIB1Xe+2lX9u7U0cMzdZIcje1VCOX2jrKZcx82z8Y4arAyje3X9JUEMX70+sYBp+yqAVH37B/9w2CR5/7R7bhK8e1wK9wiEAp/NKd+MMJnumdAGOp0BnMkspkIrAC4oL0sAGDE2np7DZJSHxGCVY1c62Vd2WP3XKC6M0h7+u3C3spM6F3xTlrrhen2pnIDexI6+l7Olg6YE4ri0pW32lpCNAekIYA6dtdebz+su2Au8AoUeedpvO67mp90ZXxdogJqIfH4Oj/ZDxj7iwTzwko+9/mahuweq+aVSKKTO6WLG/ESBP2KHcVqasvOwZOfnsVHTvw==",
+    "expiration": "2026-05-15T13:30:01.000Z"
+  },
+  "name": "coumong-webview-app",
+  "path": "/home/ubuntu/coumong-webview-app",
+  "port": 3000,
+  "secrets": {
+    "BUILT_IN_FORGE_API_KEY": "BcNMHtdE7TYb9ve2wwn4aB",
+    "BUILT_IN_FORGE_API_URL": "https://forge.manus.ai",
+    "EXPO_APP_QR_URL": "exps://8081-ips4uqq8abzjohevah7dj-f9e32bd4.sg1.manus.computer",
+    "EXPO_PACKAGER_PROXY_URL": "https://8081-ips4uqq8abzjohevah7dj-f9e32bd4.sg1.manus.computer",
+    "EXPO_PUBLIC_API_BASE_URL": "https://3000-ips4uqq8abzjohevah7dj-f9e32bd4.sg1.manus.computer",
+    "EXPO_PUBLIC_OAUTH_PORTAL_URL": "https://manus.im",
+    "EXPO_PUBLIC_OAUTH_SERVER_URL": "https://api.manus.im",
+    "EXPO_PUBLIC_OWNER_NAME": "그사람",
+    "EXPO_PUBLIC_OWNER_OPEN_ID": "fwdbRyv6BA23f3w6YWCxEm",
+    "JWT_SECRET": "3KJUfwsfBTJ5j2Bi7TV22g",
+    "OAUTH_SERVER_URL": "https://api.manus.im",
+    "OWNER_NAME": "그사람",
+    "OWNER_OPEN_ID": "fwdbRyv6BA23f3w6YWCxEm",
+    "REACT_NATIVE_PACKAGER_HOSTNAME": "8081-ips4uqq8abzjohevah7dj-f9e32bd4.sg1.manus.computer",
+    "VITE_ANALYTICS_ENDPOINT": "https://manus-analytics.com",
+    "VITE_ANALYTICS_WEBSITE_ID": "b6cd6af4-84d6-454e-bd6c-37eb80b4da68",
+    "VITE_APP_ID": "UDYZWaN7QE8vrmqi435NkK",
+    "VITE_APP_LOGO": "",
+    "VITE_APP_TITLE": "Coumong WebView App",
+    "VITE_FRONTEND_FORGE_API_KEY": "KhgDejXYYo2qBYZ2CTWaLJ",
+    "VITE_FRONTEND_FORGE_API_URL": "https://forge.manus.ai",
+    "VITE_OAUTH_PORTAL_URL": "https://manus.im"
+  },
+  "template_id": "app",
+  "test_command": "pnpm test"
+}
